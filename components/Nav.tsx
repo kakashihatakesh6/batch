@@ -44,7 +44,7 @@ export default function Nav() {
   return (
     <div className={`h-[42px] fixed inset-0 flex items-center justify-between md:justify-center top-0 left-[20px] right-[20px] ${isScrolled ? 'md:top-0 md:py-8 rounded-sm shadow-md' : 'md:top-[40px] bg-transparent'} md:left-[175px] md:right-[175px] bg-white transition-all duration-300 z-50`}>
 
-      <div className="flex h-fit pt-4 pb-4 md:pt-0 md:pb-0 space-x-0 md:space-x-0 w-full justify-between items-center md:justify-center md:inline font-style">
+      <div className="flex h-fit pt-4 pb-4 md:pt-0 md:pb-0 space-x-48 md:space-x-0 w-full justify-between items-center md:justify-center md:inline font-style">
 
         <div className="flex md:hidden justify-center items-center mx-5">
           <img
@@ -94,8 +94,6 @@ export default function Nav() {
             </button>
 
           </div>
-
-
 
           <div className="my-2 bg-blue-500">
             <img className="my-5 text-[26px] hidden md:flex" src={"https://iili.io/JbE3pDu.png"} alt="star" />
