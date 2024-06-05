@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'clash';
+    src: url('../public/font/ClashDisplaySemibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
